@@ -1,0 +1,4 @@
+# 프로젝트 제외 경로
+/LDK-SpringBase/.gradle/
+/LDK-SpringBase/build/
+/LDK-SpringBase/build/classes/java/main/

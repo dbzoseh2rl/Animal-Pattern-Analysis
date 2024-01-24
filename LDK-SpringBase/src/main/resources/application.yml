@@ -1,0 +1,15 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/Board?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: dbzoseh2rl
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.ldkspringbase.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: 'true'
